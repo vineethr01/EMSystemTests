@@ -16,7 +16,7 @@ public class ExpenseManagerSystemTest {
 		WebDriver driver;
 		driver = new HtmlUnitDriver();
 		//Thread.sleep(10000);
-		driver.get("http://localhost:8089/ExpenseApp-1/login.jsp");	
+		driver.get("http://ec2-18-212-36-240.compute-1.amazonaws.com:8089/ExpenseApp-1/login.jsp");	
 		Thread.sleep(600000);
 
 		//Comment below line to make test pass
